@@ -1,6 +1,10 @@
 // DOTS
 
+
+// Problem: String Reverse;
 function reverseString(str) {
+  /** 
+    ! Beginner Approach Maybe: (Hard Lock) **/
     let arr = [];
 
     for (let i = 0; i <= str.length - 1; ++i) {
@@ -11,6 +15,7 @@ function reverseString(str) {
     revArr = revArr.split(',').join('')
 
     return revArr;
+  /* Next Approach - Intermediate */
 }
 
-console.log(reverseString("Hello"))
+console.log(reverseString("Hello World"));
